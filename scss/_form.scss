@@ -1,0 +1,12 @@
+input {
+	margin: 0;
+	padding: 0;
+	height: 35px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	font-size: 22px;
+	outline: none;
+	&:not([type="submit"]) {
+		padding: 5px 10px;
+	}
+}
